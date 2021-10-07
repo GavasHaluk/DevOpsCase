@@ -37,6 +37,7 @@ Difficulties and challenges:
 - At this point the pipeline is working as intended it deploys from github every time a new push has been made.
 - However due to an error on my application_stop script it is failing, I tried deleting it with the same result.
 - After researching this it seems that this is a common bug with the CodeDeploy module.
+- The only fix being is to deleting the entire instance, application and pipeline and starting from scratch.
 
 TODO:
 
