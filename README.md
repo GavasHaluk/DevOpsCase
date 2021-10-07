@@ -31,3 +31,13 @@ Step 3 Setting up the CodeDeploy:
 - After that I have created a new pipeline for the webapp.
 - I have connected the pipeline with Github version 2 where my code is at.
 - After giving the neccesary permissions on Github and selectiong the AWS CodeDeploy as my deploy provider the webapp pipeline has been successfully created.
+
+Difficulties and challenges:
+
+- At this point the pipeline is working as intended it deploys from github every time a new push has been made.
+- However due to an error on my application_stop script it is failing, I tried deleting it with the same result.
+- After researching this it seems that this is a common bug with the CodeDeploy module.
+
+TODO:
+
+- Use a different deployment provider.
